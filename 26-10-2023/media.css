@@ -1,0 +1,54 @@
+  .container {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .corto {
+    width: 200px;
+  }
+
+  .piucorto {
+    width: 75px;
+  }
+
+  .form-container {
+    width: 35%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+
+  @media only screen and (min-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+    body {
+      background-color: darksalmon;
+    }
+  }
+
+  @media only screen and (min-width:1279px) {
+    body {
+      background-color: palegreen;
+    }
+  }
