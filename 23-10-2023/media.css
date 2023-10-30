@@ -1,7 +1,3 @@
-  body {
-    background-color: darkviolet;
-  }
-
   .container {
     display: flex;
     gap: 3rem;
@@ -39,7 +35,7 @@
   }
 
 
-  @media screen and (min-width: 480px) {
+  @media only screen and (min-width: 480px) {
     body {
       background-color: lightblue;
     }
@@ -48,5 +44,11 @@
   @media only screen and (min-width: 769px) {
     body {
       background-color: darksalmon;
+    }
+  }
+
+  @media only screen and (min-width:1279px) {
+    body {
+      background-color: palegreen;
     }
   }

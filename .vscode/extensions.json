@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "binarybytes.snippets",
+        "pranaygp.vscode-css-peek",
+        "eamodio.gitlens",
+        "chakrounanas.turbo-console-log",
+        "slint.slint",
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode",
+        "ms-vscode-remote.remote-ssh"
+    ]
+}
