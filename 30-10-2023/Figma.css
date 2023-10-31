@@ -1,9 +1,42 @@
 body {
     background-color: #FFC59B;
+    position: relative;
   }
 
   header {
     background-color: #00A9FF;
     color: white;
     padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
+
+h1 {
+  text-align: center;
+}
+
+.griglia {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+
+.position {
+  position: absolute bottom 0;
+}
+  
+  
+
+.colonna {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #FFC59B;
+  }
 }
